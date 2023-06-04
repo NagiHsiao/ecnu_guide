@@ -16,7 +16,7 @@
 ## ※排错
 
 - 【GitHub无法git传输】
-    
+  
     ->  [取消代理](https://blog.csdn.net/Hodors/article/details/103226958)
     |    [配置符合的端口](https://blog.csdn.net/zpf1813763637/article/details/128340109?ops_request_misc=&request_id=&biz_id=102&utm_term=%20Failed%20to%20connect%20to%20github.c&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-128340109.142^v88^control_2,239^v2^insert_chatgpt&spm=1018.2226.3001.4449)
 
@@ -26,3 +26,5 @@
 git config --global http.proxy 127.0.0.1:7890
 git config --global https.proxy 127.0.0.1:7890
 ```
+
+- [如何在 GitHub 提交第一个 pull request](https://www.freecodecamp.org/chinese/news/how-to-make-your-first-pull-request-on-github/)
