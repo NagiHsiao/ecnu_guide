@@ -16,12 +16,13 @@
 ## ※排错
 
 - 【GitHub无法git传输】
-    ->  取消全局代理
+    
+    ->  [取消代理](https://blog.csdn.net/Hodors/article/details/103226958)
+    |    [配置符合的端口](https://blog.csdn.net/zpf1813763637/article/details/128340109?ops_request_misc=&request_id=&biz_id=102&utm_term=%20Failed%20to%20connect%20to%20github.c&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-128340109.142^v88^control_2,239^v2^insert_chatgpt&spm=1018.2226.3001.4449)
+
+![](https://img-blog.csdnimg.cn/8e6fdc89ebe64cdfbb768d42ec203b3a.png)
 
 ```git
-git config --global --unset http.proxy
- 
-git config --global --unset https.proxy
+git config --global http.proxy 127.0.0.1:7890
+git config --global https.proxy 127.0.0.1:7890
 ```
-
-## 
